@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="globalized elapsed ticks">
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="add kill method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,7 @@
       <recent name="love.chihuyu.plugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]">
+  <component name="RunManager" selected="Gradle.TimerAPI [shadowJar]">
     <configuration name="PurpurPluginTemplate [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -208,8 +207,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]" />
         <item itemvalue="Gradle.TimerAPI [shadowJar]" />
+        <item itemvalue="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]" />
         <item itemvalue="Gradle.PurpurPluginTemplate [setup]" />
         <item itemvalue="Gradle.PurpurPluginTemplate [build]" />
       </list>
@@ -247,7 +246,7 @@
       <workItem from="1679249190808" duration="9422000" />
       <workItem from="1679301373287" duration="31000" />
       <workItem from="1679301507628" duration="334000" />
-      <workItem from="1679302343637" duration="808000" />
+      <workItem from="1679302343637" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -466,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679302408649</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add kill method">
+      <created>1679303175982</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679303175982</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +482,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ド―――――――――――――――ん！！！！！" />
     <MESSAGE value="リポジトリだぁぁぁーーーーーーーーーーーーーーーーーーーーーーッッッッッ！！！！！！" />
     <MESSAGE value="ぶちゅ" />
     <MESSAGE value="うおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお" />
@@ -501,7 +506,8 @@
     <MESSAGE value="basic feature" />
     <MESSAGE value="fuck da relocate" />
     <MESSAGE value="globalized elapsed ticks" />
-    <option name="LAST_COMMIT_MESSAGE" value="globalized elapsed ticks" />
+    <MESSAGE value="add kill method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kill method" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
