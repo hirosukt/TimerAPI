@@ -7,18 +7,16 @@ plugins {
 }
 
 group = "love.chihuyu"
-version = "0.0.1"
+version = "1.0.0"
 val pluginVersion: String by project.ext
 
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://repo.inventivetalent.org/content/groups/public/")
 }
 
 dependencies {
     compileOnly("org.github.paperspigot:paperspigot-api:$pluginVersion-R0.1-SNAPSHOT")
-    implementation("org.inventivetalent:bossbarapi:2.4.3")
     implementation(kotlin("stdlib"))
 }
 
@@ -48,7 +46,6 @@ tasks {
     shadowJar {
         val loweredProject = project.name.lowercase()
         exclude("org/slf4j/**")
-        relocate("kotlin", "love.chihuyu.$loweredProject.lib.kotlin")
         archiveClassifier.set("")
     }
 }
@@ -58,7 +55,7 @@ publishing {
         maven {
             name = "repo"
             credentials(PasswordCredentials::class)
-            url = uri("https://repo.hirosuke.me/repository/maven-central/")
+            url = uri("https://repo.hirosuke.me/repository/maven-releases/")
         }
     }
 

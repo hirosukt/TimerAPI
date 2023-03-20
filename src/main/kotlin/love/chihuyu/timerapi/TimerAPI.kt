@@ -1,22 +1,22 @@
 package love.chihuyu.timerapi
 
-import love.chihuyu.timerapi.timer.Timer
+import org.bukkit.scheduler.BukkitTask
 
 object TimerAPI {
 
-    private val timerStorage = mutableListOf<Timer>()
+    private val timerStorage = mutableListOf<BukkitTask>()
 
-    fun all(): MutableList<Timer> {
+    fun all(): MutableList<BukkitTask> {
         return timerStorage
     }
 
-    fun register(timer: Timer): MutableList<Timer> {
-        timerStorage += timer
+    fun register(timerTask: BukkitTask): MutableList<BukkitTask> {
+        timerStorage += timerTask
         return timerStorage
     }
 
-    fun unregister(timer: Timer): MutableList<Timer> {
-        timerStorage -= timer
+    fun unregister(timerTask: BukkitTask): MutableList<BukkitTask> {
+        timerStorage -= timerTask
         return timerStorage
     }
 }

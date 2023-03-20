@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/TimerAPI.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/TimerAPIPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/commands/Command.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/commands/TimerCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/DisplayType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/utils/Schedular.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="basic feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/TimerAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/TimerAPI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/DisplayType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +38,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="TimerAPI" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TimerAPI" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -115,7 +111,7 @@
       <recent name="love.chihuyu.plugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PurpurPluginTemplate [setup]">
+  <component name="RunManager" selected="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]">
     <configuration name="PurpurPluginTemplate [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,12 +154,35 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TimerAPI [publishPluginMavenPublicationToRepoRepository]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishPluginMavenPublicationToRepoRepository" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]" />
       <item itemvalue="Gradle.PurpurPluginTemplate [build]" />
       <item itemvalue="Gradle.PurpurPluginTemplate [setup]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]" />
         <item itemvalue="Gradle.PurpurPluginTemplate [setup]" />
         <item itemvalue="Gradle.PurpurPluginTemplate [build]" />
       </list>
@@ -198,7 +217,7 @@
       <workItem from="1679135529941" duration="158000" />
       <workItem from="1679248263232" duration="90000" />
       <workItem from="1679248977568" duration="205000" />
-      <workItem from="1679249190808" duration="4541000" />
+      <workItem from="1679249190808" duration="7947000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -396,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679248335221</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="basic feature">
+      <created>1679283153660</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679283153660</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +455,8 @@
     <MESSAGE value="update ignore" />
     <MESSAGE value="idea settings" />
     <MESSAGE value="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option" />
-    <option name="LAST_COMMIT_MESSAGE" value="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option" />
+    <MESSAGE value="basic feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic feature" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

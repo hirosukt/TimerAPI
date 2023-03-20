@@ -1,5 +1,6 @@
 package love.chihuyu.timerapi.timer
 
+import love.chihuyu.timerapi.TimerAPI
 import love.chihuyu.timerapi.TimerAPIPlugin
 import love.chihuyu.timerapi.utils.Schedular.async
 import love.chihuyu.timerapi.utils.Schedular.sync
@@ -51,8 +52,10 @@ class Timer(val title: String, val duration: Long, val period: Long = 20, val de
             if (elapsed == duration) {
                 end.invoke(this@Timer)
                 cancel()
+                TimerAPI.unregister(task)
             }
         }
+        TimerAPI.register(task)
     }
 
     fun runAsync() {
