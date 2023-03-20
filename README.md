@@ -3,7 +3,7 @@ An api easily create and coding as simple to timer.
 
 ## Usage
 
-Add below to `build.gradle`.
+Add below to `build.gradle.kts`.
 ```kotlin
 repositories {
     maven("https://repo.hirosuke.me/repository/maven-public/")
