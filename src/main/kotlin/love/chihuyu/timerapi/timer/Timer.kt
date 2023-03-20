@@ -40,6 +40,12 @@ class Timer(val title: String, val duration: Long, val period: Long = 20, val de
         }
     }
 
+    fun kill() {
+        end.invoke(this@Timer)
+        task.cancel()
+        TimerAPI.unregister(task)
+    }
+
     fun run() {
         task = TimerAPIPlugin.TimerAPIPlugin.sync(delay, period) {
             if (elapsed == 0L) {
