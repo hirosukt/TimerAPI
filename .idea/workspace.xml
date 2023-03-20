@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="basic feature">
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="fuck da relocate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/TimerAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/TimerAPI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/DisplayType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,12 @@
                 <item name="TimerAPI" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TimerAPI" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -175,14 +177,37 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TimerAPI [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]" />
+      <item itemvalue="Gradle.TimerAPI [shadowJar]" />
       <item itemvalue="Gradle.PurpurPluginTemplate [build]" />
       <item itemvalue="Gradle.PurpurPluginTemplate [setup]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]" />
+        <item itemvalue="Gradle.TimerAPI [shadowJar]" />
         <item itemvalue="Gradle.PurpurPluginTemplate [setup]" />
         <item itemvalue="Gradle.PurpurPluginTemplate [build]" />
       </list>
@@ -217,7 +242,9 @@
       <workItem from="1679135529941" duration="158000" />
       <workItem from="1679248263232" duration="90000" />
       <workItem from="1679248977568" duration="205000" />
-      <workItem from="1679249190808" duration="7947000" />
+      <workItem from="1679249190808" duration="9422000" />
+      <workItem from="1679301373287" duration="31000" />
+      <workItem from="1679301507628" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -422,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679283153660</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fuck da relocate">
+      <created>1679299618287</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679299618287</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +490,8 @@
     <MESSAGE value="idea settings" />
     <MESSAGE value="fucked shadowJar insertions &quot;&quot;-all&quot; to filename option" />
     <MESSAGE value="basic feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic feature" />
+    <MESSAGE value="fuck da relocate" />
+    <option name="LAST_COMMIT_MESSAGE" value="fuck da relocate" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

@@ -18,6 +18,7 @@ class Timer(val title: String, val duration: Long, val period: Long = 20, val de
     var tick: Timer.() -> Unit = {}
     var start: Timer.() -> Unit = {}
     var end: Timer.() -> Unit = {}
+    var elapsed = 0L
 
     lateinit var task: BukkitTask
 
@@ -40,7 +41,6 @@ class Timer(val title: String, val duration: Long, val period: Long = 20, val de
     }
 
     fun run() {
-        var elapsed = 0L
         task = TimerAPIPlugin.TimerAPIPlugin.sync(delay, period) {
             if (elapsed == 0L) {
                 start.invoke(this@Timer)
