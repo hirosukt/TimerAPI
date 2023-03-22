@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="readme" />
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="logo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +98,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -111,7 +114,7 @@
       <recent name="love.chihuyu.plugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TimerAPI [shadowJar]">
+  <component name="RunManager" selected="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]">
     <configuration name="PurpurPluginTemplate [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -204,8 +207,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TimerAPI [shadowJar]" />
         <item itemvalue="Gradle.TimerAPI [publishPluginMavenPublicationToRepoRepository]" />
+        <item itemvalue="Gradle.TimerAPI [shadowJar]" />
         <item itemvalue="Gradle.PurpurPluginTemplate [setup]" />
         <item itemvalue="Gradle.PurpurPluginTemplate [build]" />
       </list>
@@ -244,6 +247,10 @@
       <workItem from="1679301373287" duration="31000" />
       <workItem from="1679301507628" duration="334000" />
       <workItem from="1679302343637" duration="3013000" />
+      <workItem from="1679329299836" duration="753000" />
+      <workItem from="1679331630179" duration="253000" />
+      <workItem from="1679464961057" duration="53000" />
+      <workItem from="1679465273538" duration="510000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -476,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679329034302</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="logo">
+      <created>1679330612538</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1679330612538</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +500,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ぶちゅ" />
     <MESSAGE value="うおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお" />
     <MESSAGE value="うおりゃあああああああああああああああああああああああああああああああああ" />
     <MESSAGE value="ジャマだあああああああああああああああああああ" />
@@ -511,7 +524,8 @@
     <MESSAGE value="globalized elapsed ticks" />
     <MESSAGE value="add kill method" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

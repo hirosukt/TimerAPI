@@ -46,7 +46,7 @@ tasks {
     shadowJar {
         val loweredProject = project.name.lowercase()
         exclude("org/slf4j/**")
-        archiveClassifier.set("")
+        relocate("kotlin", "love.chihuyu.$loweredProject.lib.kotlin")
     }
 }
 
