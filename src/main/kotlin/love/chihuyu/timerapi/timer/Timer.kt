@@ -13,7 +13,7 @@ import java.util.concurrent.CompletableFuture
  * @param period span of per tick (default = 20).
  * @param delay ticks until start timer.
  */
-class Timer(val title: String, val duration: Long, val period: Long = 20, val delay: Long = 0) {
+class Timer(var title: String, var duration: Long, var period: Long = 20, var delay: Long = 0) {
 
     var tick: Timer.() -> Unit = {}
     var start: Timer.() -> Unit = {}

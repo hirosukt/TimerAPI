@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "love.chihuyu"
-version = "1.1.1"
+version = "1.2.0-SNAPSHOT"
 val pluginVersion: String by project.ext
 
 repositories {
@@ -55,7 +55,7 @@ publishing {
         maven {
             name = "repo"
             credentials(PasswordCredentials::class)
-            url = uri("https://repo.hirosuke.me/repository/maven-releases/")
+            url = uri("https://repo.hirosuke.me/repository/maven-snapshots/")
         }
     }
 
