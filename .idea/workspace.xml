@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="1.1.1">
+    <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="1.2.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/TimerAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/TimerAPI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/love/chihuyu/timerapi/timer/Timer.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +253,7 @@
       <workItem from="1679465273538" duration="580000" />
       <workItem from="1679468981304" duration="189000" />
       <workItem from="1679645733493" duration="6036000" />
+      <workItem from="1679672917691" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -508,7 +507,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679469078594</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="1.2.1 changed variables visibility">
+      <created>1679672942341</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679672942341</updated>
+    </task>
+    <task id="LOCAL-00038" summary="1.2.1">
+      <created>1679672962628</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1679672962628</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,8 +531,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ジャマだあああああああああああああああああああ" />
-    <MESSAGE value="ファーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーック" />
     <MESSAGE value="どぅおりゃあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ" />
     <MESSAGE value="いよいしょーーーーーーーーーーーーーーーーーーーーーーーーーーー" />
     <MESSAGE value="update" />
@@ -543,7 +554,9 @@
     <MESSAGE value="logo" />
     <MESSAGE value="fix shadowJar name" />
     <MESSAGE value="1.1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1.1" />
+    <MESSAGE value="1.2.1 changed variables visibility" />
+    <MESSAGE value="1.2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2.1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
