@@ -54,7 +54,7 @@ publishing {
         maven {
             name = "repo"
             credentials(PasswordCredentials::class)
-            url = uri("https://repo.hirosuke.me/repository/maven-snapshots/")
+            url = uri("https://repo.hirosuke.me/repository/maven-releases/")
         }
     }
 
