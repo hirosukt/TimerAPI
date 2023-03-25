@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44b9fe2b-20f2-423c-a52b-989015bac3aa" name="Changes" comment="1.2.1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,6 +253,7 @@
       <workItem from="1679468981304" duration="189000" />
       <workItem from="1679645733493" duration="6036000" />
       <workItem from="1679672917691" duration="1563000" />
+      <workItem from="1679716910224" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="おらぁぁぁぁぁぁーーーーーーーーーーーーー！！！！！！！！！！">
       <created>1678719091952</created>
@@ -521,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679672962628</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="1.2.1">
+      <created>1679716924289</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1679716924289</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
