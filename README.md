@@ -11,7 +11,7 @@ repositories {
 ```
 ```kotlin
 dependencies {
-    compileOnly("love.chihuyu:TimerAPI:1.1.0")
+    compileOnly("love.chihuyu:TimerAPI:1.2.1")
 }
 ```
 
