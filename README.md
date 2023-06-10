@@ -6,12 +6,12 @@ An api easily create and coding as simple to timer.
 Add below to `build.gradle.kts`.
 ```kotlin
 repositories {
-    maven("https://repo.hirosuke.me/repository/maven-public/")
+    maven("https://repo.hirosuke.me/snapshots/")
 }
 ```
 ```kotlin
 dependencies {
-    compileOnly("love.chihuyu:TimerAPI:1.2.1")
+    compileOnly("love.chihuyu:TimerAPI:1.3.0-SNAPSHOT")
 }
 ```
 
