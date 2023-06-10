@@ -11,7 +11,7 @@ repositories {
 ```
 ```kotlin
 dependencies {
-    compileOnly("love.chihuyu:TimerAPI:1.1.0")
+    compileOnly("love.chihuyu:TimerAPI:1.2.1")
 }
 ```
 
@@ -19,7 +19,7 @@ dependencies {
 
 ```kotlin
 // this timer length is 180 * 20(1sec) = 3600tick(3min)
-val timer = Timer("wait ramen", duration = 180, period = 20, delay = 0)
+val timer = TimerAPI.build("wait ramen", duration = 180, period = 20, delay = 0)
     .start {
         hotWater.drip()
     }
