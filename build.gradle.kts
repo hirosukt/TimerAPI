@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "love.chihuyu"
-version = "1.2.1"
+version = "1.3.0-SNAPSHOT"
 val pluginVersion: String by project.ext
 
 repositories {
@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.github.paperspigot:paperspigot-api:$pluginVersion-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
     implementation(kotlin("stdlib"))
 }
 
@@ -54,7 +54,7 @@ publishing {
         maven {
             name = "repo"
             credentials(PasswordCredentials::class)
-            url = uri("https://repo.hirosuke.me/repository/maven-releases/")
+            url = uri("https://repo.hirosuke.me/snapshots/")
         }
     }
 
