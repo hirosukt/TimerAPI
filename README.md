@@ -1,4 +1,5 @@
 # TimerAPI
+<img src="https://repo.hirosuke.me/api/badge/latest/snapshots/love/chihuyu/TimerAPI?color=40c14a&name=Reposilite"/>
 An api easily create and coding as simple to timer.
 
 ## Usage
