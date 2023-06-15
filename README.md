@@ -1,4 +1,4 @@
-# timer-api
+# TimerAPI
 An api easily create and coding as simple to timer.
 
 ## Usage
@@ -11,7 +11,7 @@ repositories {
 ```
 ```kotlin
 dependencies {
-    compileOnly("love.chihuyu:timer-api:1.2.1")
+    compileOnly("love.chihuyu:TimerAPI:1.2.1")
 }
 ```
 
