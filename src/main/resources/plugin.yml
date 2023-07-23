@@ -1,4 +1,5 @@
 name: @name@
 main: @mainPackage@
 version: @version@
-depend: MCKotlin-Paper
+depend:
+  - MCKotlin-Paper
