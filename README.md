@@ -14,7 +14,7 @@ repositories {
 ```
 ```kotlin
 dependencies {
-    compileOnly("love.chihuyu:timer-api:1.3.0-SNAPSHOT")
+    compileOnly("love.chihuyu:timer-api:1.4.0-SNAPSHOT")
 }
 ```
 
