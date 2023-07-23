@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.8.20"
+    kotlin("jvm") version "1.9.0"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("org.jlleitschuh.gradle.ktlint") version "11.3.1"
     `maven-publish`
@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "love.chihuyu"
-version = "1.3.0-SNAPSHOT"
+version = "1.4.0-SNAPSHOT"
 val pluginVersion: String by project.ext
 
 repositories {
@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:$pluginVersion-R0.1-SNAPSHOT")
-    implementation(kotlin("stdlib"))
+    compileOnly(kotlin("stdlib"))
 }
 
 ktlint {
