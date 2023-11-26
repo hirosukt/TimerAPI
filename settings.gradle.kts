@@ -1,3 +1,3 @@
 
-rootProject.name = "timer-api"
+rootProject.name = "TimerAPI"
 
