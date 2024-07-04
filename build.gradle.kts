@@ -54,7 +54,7 @@ publishing {
         maven {
             name = "repo"
             credentials(PasswordCredentials::class)
-            url = uri("https://repo.chihuyu.love/snapshots/")
+            url = uri("https://chihuyu.love/repo/snapshots")
         }
     }
 
